@@ -1,0 +1,8 @@
+Importing Libraries:
+
+import pandas as pd: Imports the pandas library which is used for data manipulation and analysis.
+from sklearn.model_selection import train_test_split: Imports the train_test_split function from scikit-learn, which is used to split the dataset into training and testing sets.
+from sklearn.svm import LinearSVC: Imports the Linear Support Vector Classifier (LinearSVC) from scikit-learn, which is a linear classification model.
+from sklearn.pipeline import Pipeline: Imports the Pipeline class from scikit-learn, which is used to chain multiple estimators into one.
+from sklearn.feature_extraction.text import TfidfVectorizer: Imports the TF-IDF Vectorizer from scikit-learn, which is used to convert text data into numerical vectors based on the term frequency-inverse document frequency (TF-IDF) formula.
+from sklearn.metrics import accuracy_score, f1_score: Imports accuracy_score and f1_score functions from scikit-learn, which are used to evaluate the performance of the classifier.
